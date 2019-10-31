@@ -1,3 +1,6 @@
-<p appRedblack='20'>
-  Custom Directive
-</p>
+<div class="app-container">
+    <router-outlet></router-outlet>
+    <div *ngIf='loaderStatus' class="app-loader">
+        <app-loader></app-loader>
+    </div>
+</div>

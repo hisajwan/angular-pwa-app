@@ -1,0 +1,18 @@
+.app-container {
+    position: relative;
+    .app-loader{
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #0000002e;
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        &> app-loader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
